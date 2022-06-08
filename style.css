@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    border-radius: 30px;
+    padding: 0.8rem 3rem;
+    margin: 3rem 0;
+    transition: background 0.75s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #7f0f00;
+}
+
+.container{
+    max-width: 130rem;
+    margin: auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+    
+}
+
+
+
+
+
+p{
+
+    color:rgb(77, 77, 77);
+
+    color:black;
+
+    font-size: 1.6rem
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.col-3{
+    flex-basis:30% ;
+    min-width: 25rem;
+    margin-bottom: 3rem;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.small-container{
+    max-width: 108rem;
+    margin: auto;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.testimonial{
+    padding-top: 10rem;
+}
+
+.testimonial .col-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem 2rem;
+    box-shadow: 0 0 2rem 0rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+    min-height: 45rem;
+}
+
+
+.testimonial .col-3:hover{
+    transform: translateY(-1rem);
+}
+.fa.fa-quote-left{
+    font-size: 3.4rem;
+    color: #ff523b;
+}
+
+.programmers-img  {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 99%;
+}
+
+.col-3 p{
+    font-size: 1.2rem;
+    margin: 1.2rem 0;
+    color: var(--p);
+}
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: var(--p);
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
